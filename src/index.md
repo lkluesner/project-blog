@@ -1,7 +1,7 @@
 ---
-title: Hello world
+title: Luke's Project Blog
 layout: base.njk
 ---
 
-## Blog Posts
+## Projects:
 {% include "postlist.njk" %}
