@@ -2,8 +2,7 @@
 title: Luke's Project Blog
 layout: base.njk
 eleventyNavigation:
-    key: Home
-    order: 1
+    key: About
+    order: 3
 ---
-
-{% include "postlist.njk" %}
+About me
