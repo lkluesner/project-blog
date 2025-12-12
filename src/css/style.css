@@ -20,6 +20,8 @@
     --bright_purple: #de6bdb;
     --green: #81af58;
     --orange: #ef9946;
+    --orange_a: #f49325;
+    --orange_b: #de973b;
     --blue: #409cdc;
     --light_blue: #88c1e9;
     --yellow: #ceba49;
@@ -90,15 +92,17 @@ header {
 }
 .nav-item {
 	display: inline-block;
+	line-height: 1.5;
 }
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
+	color: var(--orange_b);
+}
+.nav-item a[href]:hover {
+	color: var(--coral);
 }
 .nav a[href][aria-current="page"] {
-	text-decoration: underline;
-}
-li {
-	line-height: 1.5;
+	font-weight: 700;
 }
 
 main {
