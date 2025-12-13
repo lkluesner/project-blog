@@ -42,11 +42,15 @@
 	--syntax-tab-size: 2;
 }
 
+@font-face {
+	font-family: testFontname;
+	src: url('/../fonts/LondrinaSketch-Regular.ttf');
+}
+
 html,
 body {
 	padding: 0;
 	margin: 0 auto;
-	font-family: var(--font-family);
 	color: var(--fg);
 	background-color: var(--bg_d);
 }
@@ -68,8 +72,7 @@ header {
 	text-align: center;
 	display:block;
 	color: var(--fg);
-}
-.home-link:link:not(:hover) {
+	font-family: testFontname;
 	text-decoration: none;
 }
 .home-link:visited {
@@ -103,6 +106,12 @@ header {
 }
 .nav a[href][aria-current="page"] {
 	font-weight: 700;
+}
+
+.postlist {
+	columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
 }
 
 main {
