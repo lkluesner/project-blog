@@ -1,5 +1,5 @@
 export default {
-	title: "Luke's Project Blog",
+	title: "Luke's Project Journal",
 	url: "https://example.com/",
 	language: "en",
 	description: "Blog for the projects of Luke Kluesner.",

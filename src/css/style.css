@@ -43,8 +43,13 @@
 }
 
 @font-face {
-	font-family: testFontname;
+	font-family: titleFont;
 	src: url('/../fonts/LondrinaSketch-Regular.ttf');
+}
+
+@font-face {
+	font-family: markerFont;
+	src: url('/../fonts/Caveat/Caveat-VariableFont_wght.ttf');
 }
 
 html,
@@ -67,12 +72,12 @@ header {
 }
 .home-link {
 	flex-grow: 1;
-	font-size: 2em; /* 16px /16 */
+	font-size: 3em; /* 16px /16 */
 	font-weight: 700;
 	text-align: center;
 	display:block;
 	color: var(--fg);
-	font-family: testFontname;
+	font-family: titleFont;
 	text-decoration: none;
 }
 .home-link:visited {
@@ -95,14 +100,17 @@ header {
 }
 .nav-item {
 	display: inline-block;
+	font-size: 2em;
 	line-height: 1.5;
+	font-family: markerFont;
 }
 .nav-item a[href]:not(:hover) {
-	text-decoration: none;
 	color: var(--orange_b);
+	text-decoration: none;
 }
 .nav-item a[href]:hover {
 	color: var(--coral);
+	text-decoration: none;
 }
 .nav a[href][aria-current="page"] {
 	font-weight: 700;
@@ -110,8 +118,14 @@ header {
 
 .postlist {
 	columns: 2;
+	list-style-type: none;
     -webkit-columns: 2;
     -moz-columns: 2;
+	padding: 1em;
+}
+.postitem {
+	text-align: center;
+	padding: 1em;
 }
 
 main {
