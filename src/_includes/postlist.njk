@@ -1,10 +1,10 @@
 <ul class="postlist">
-{% for post in collections.posts %}
+{% for post in collections.posts reversed %}
 <li class="postitem">
     <a href="{{ post.url }}">
-        <img src="https://picsum.photos/640/640/?random" alt="">
+        <img src="https://picsum.photos/640/400/?random" alt="">
         <span class="overlay-box">
-            <span class="main-title">{{ post.data.title }}</span>
+            <span class="post-title">{{ post.data.title }}</span>
             <span class="description">{{ post.data.description }}</span>
         </span>
     </a>
