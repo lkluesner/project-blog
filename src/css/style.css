@@ -66,7 +66,6 @@ body {
 	color: var(--fg);
 	background-color: var(--bg_d);
 	background-color: var(--bg_d);
-	background-image:  linear-gradient(var(--bg2) 2px, transparent 2px), linear-gradient(90deg, var(--bg2) 2px, transparent 2px), linear-gradient(var(--bg2) 1px, transparent 1px), linear-gradient(90deg, var(--bg2) 1px, var(--bg_d) 1px);
 	background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
 	background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 	font-family: baseFont;
@@ -84,12 +83,11 @@ header {
 }
 .home-link {
 	flex-grow: 1;
-	font-size: 3em; /* 16px /16 */
-	font-weight: 700;
+	font-size: 3.5em; /* 16px /16 */
 	text-align: center;
 	display:block;
 	color: var(--fg);
-	font-family: titleFont;
+	font-family: markerFont;
 	text-decoration: none;
 }
 .home-link:visited {
@@ -105,7 +103,7 @@ nav {
     z-index:99998;
 	background-color: var(--bg1);
 	max-width: 100%;
-	border-bottom: .1em dashed var(--purple);
+	border-bottom: .1em solid var(--bg2);
 }
 .nav {
 	display: flex;
@@ -121,9 +119,8 @@ nav {
 }
 .nav-item {
 	display: inline-block;
-	font-size: 2em;
 	line-height: 1.5;
-	font-family: markerFont;
+	font-family: baseFont;
 }
 .nav-item a[href]:not(:hover) {
 	color: var(--orange_b);
@@ -133,8 +130,13 @@ nav {
 	color: var(--coral);
 	text-decoration: none;
 }
+.nav a {
+
+	font-size: 2em;
+}
 .nav a[href][aria-current="page"] {
-	font-weight: 700;
+	font-weight: 600;
+	line-height: 1.5;
 }
 .icon_links {
 	position: absolute;
@@ -143,16 +145,25 @@ nav {
 	bottom: 0;
 	height: 100%;
 	display: inline-block;
+	margin-right: 5%;
 }
 .githublink {
-	height: 100%;
+	height: 70%;
+	padding: 10% 10% 0 10%;
 	display: inline-block;
+	background-color: var(--bg_d);
+	border-radius: 0.5em;
+	border: .1em solid var(--bg_d);
 }
 .githublink img {
-	height: 100%;
-	object-fit: fill;
+	height: 80%;
 	width: auto;
-	background-color: var(--fg);
+	border-radius: 0.5em;
+}
+
+.image-swap-container:hover .hover-image {
+  /* Show the hover image on container hover */
+  display: block;
 }
 /***************************************************/
 main {

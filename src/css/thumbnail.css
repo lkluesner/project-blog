@@ -39,11 +39,11 @@
     width:100%;
     max-height: 20em;
     float:left;
-    border-radius: .1em;
-    outline: .1em solid var(--light_grey);
+    border-radius: .5em;
+    outline: .1em solid var(--bg2);
  }
 .postitem a:hover img {
-    outline: .1em solid var(--grey);
+    outline: .1em solid var(--orange_b);
 }
 /***************************************************/
 .overlay-box {
@@ -54,7 +54,7 @@
     right:0;
     padding:5%;
     background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.75));
-    border-radius: 0 0 .1em .1em;
+    border-radius: 0 0 .5em .5em;
     margin: 0.3em;
 }
 .post-title {
@@ -62,7 +62,7 @@
     display:block;
     font-weight:500;
     text-shadow:0 0 1px rgba(0,0,0,0.5);
-    font-family: markerFont;
+    font-family: baseFont;
 }
 .description {
     color:#ccc;
