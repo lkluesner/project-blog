@@ -16,6 +16,10 @@ export default async function(eleventyConfig) {
   //add image plugin
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
 
+  //configure img
+  eleventyConfig.addPassthroughCopy("./src/images");
+  eleventyConfig.addWatchTarget("./src/images");
+
   //fonts
   eleventyConfig.addPassthroughCopy("./src/fonts");
   eleventyConfig.addWatchTarget("./src/fonts");
