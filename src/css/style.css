@@ -161,6 +161,14 @@ nav {
 	border-radius: 0.5em;
 }
 
+
+img.blogImage {
+	max-width: 100%;
+	height: auto;
+	border-radius: 0.5em;
+    outline: .1em solid var(--bg2);
+}
+
 .image-swap-container:hover .hover-image {
   /* Show the hover image on container hover */
   display: block;

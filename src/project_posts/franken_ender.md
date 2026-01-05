@@ -14,7 +14,7 @@ An attempt to get my Ender 3 up to more modern 3d printing standards, similar to
 
 One of the features that my Ender 3 was greatly lacking was an auto-bed leveling sensor, so one of the first things I wanted to do was add one. 
 
-<img src="/images/frankenender/bitburn_pins.JPG" alt="">
+<img class="blogImage" src="/images/frankenender/bitburn_pins.JPG" alt="">
 
 To do that, I needed to flash new software to the printer mainboard. 
 My old Ender 3 has an old 8-bit Melzi MCU board, that was running some old version of Marlin. 
