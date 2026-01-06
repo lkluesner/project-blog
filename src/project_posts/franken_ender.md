@@ -46,19 +46,45 @@ To get one of these valuable I/O pins we will remove the Z-stop switch as the AB
 
 To get the other, we will install a jumper to steal the pin that controls the buzzer on the display.
 
-Luckily I'm not the first to do this, so was able to pick one up online for 3 bucks at th3d.
+Luckily I'm not the first to do this, so was able to pick one up online for 3 bucks at TH3D.
 
 <img class="blogImage" src="/images/frankenender/crtouch_pinout.jpeg" alt="">
 
-I chose the CR Touch as my ABL, I bought this early in the project, and I regret it. Its not a bad sensor, it just is outdated and heavy compared to KlickyPCB or the BDSensor.
+I chose the CR Touch as my ABL, I bought this early in the project, and I regret it. Its not a bad sensor, it just is outdated and heavy compared to KlickyPCB or BDSensor.
 
 I then spliced the CR touch cable to 2 connectors, one going to the z stop, the other going to the display jumper.
 
 With the power of Klipper (and a bit of configuration), my ancient Ender 3 can now: auto-bed level AND use bed meshes!
 
-## One Last Ride
+## One Last Ride/Self Replication
 
-## Self Replication
+Now that we have done some minor upgrades, It was time for my Old Ender to start printing its replacement. Or is it printing organs to prolong its life? Real ship of Theseus situation I got going on here.
+
+<img class="blogImage" src="/images/frankenender/ender3_in_tent.JPG" alt="">
+
+In order to print ABS we need some sort of enclosure. I started out with a sketchy cardboard contraption setup in my parents garage, that actually was semi-functional... But, I decided to be a good son, and not burn down my parents house so I shelled out 20 bucks for a 3d printer tent.
+
+<img class="blogImage" src="/images/frankenender/ender3_wire_extensions.JPG" alt="">
+
+I extended the wires of the stock Ender 3 Harness so I could move the electronics out of the hot enclosure.
+
+<img class="blogImage" src="/images/frankenender/tent_mcu.JPG" alt="">
+
+I also added lights in the tent..
+
+<img class="blogImage" src="/images/frankenender/tent_light.JPG" alt="">
+
+...and a camera so I could babysit prints from long distance.
+
+<img class="blogImage" src="/images/frankenender/tent_cam.JPG" alt="">
+
+Side Note: I used Tailscale to setup secure communication to the RaspPi, mainly because it was the lowest effort.
+
+<img class="blogImage" src="/images/frankenender/tent_pi.JPG" alt="">
+
+Because I was printing in my parents garage, I also wanted a filament dry box to keep my new ASA filament fresh. I built a design I found online, the [Ultimate Filament Dry Box](https://www.printables.com/model/453772-ultimate-filament-dry-box).
+
+<img class="blogImage" src="/images/frankenender/drybox.JPG" alt="">
 
 ## Woodworking and the Enclosure
 
