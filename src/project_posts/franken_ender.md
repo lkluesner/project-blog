@@ -12,9 +12,7 @@ An attempt to get my Ender 3 up to more modern 3d printing standards, similar to
 
 ## Flashing Klipper and Bit-Banging
 
-[Adafruit Avrdude RaspPi Guide](https://learn.adafruit.com/program-an-avr-or-arduino-using-raspberry-pi-gpio-pins/installation)
-
-[Klipper Flashing Guide](https://www.klipper3d.org/Installation.html#building-and-flashing-the-micro-controller)
+[Avrdude w/ RaspPi](https://learn.adafruit.com/program-an-avr-or-arduino-using-raspberry-pi-gpio-pins/installation) | [Klipper Flashing](https://www.klipper3d.org/Installation.html#building-and-flashing-the-micro-controller)
 
 One of the features that my Ender 3 was greatly lacking was an auto-bed leveling sensor, so one of the first things I wanted to do was add one. 
 
@@ -86,7 +84,29 @@ Because I was printing in my parents garage, I also wanted a filament dry box to
 
 <img class="blogImage" src="/images/frankenender/drybox.JPG" alt="">
 
+After all this was setup, I printed all the needed parts to build my [Ender NG](https://www.printables.com/model/922401-ender-3-ng-v12-corexy-conversion/files?lang=en) 
+
+<img class="blogImage" src="/images/frankenender/bucket_of_parts.JPG" alt="">
+
 ## Woodworking and the Enclosure
+
+The Ender NG project has plans for you to buy laser cut acrylic panels to use as an enclosure. As I am a cheap-ass, I will use my favorite material, that I have used for countless previous projects... Scrap wood from my Dad's garage! Free! (for me at least)
+
+I found a few dirty pieces of quarter inch, MDF-core, plywood that were used for god knows what in the past. Absolute perfection.
+
+<img class="blogImage" src="/images/frankenender/sanding_panels.JPG" alt="">
+
+I used Autodesk Fusion 360 and the provided CAD files to get the needed measurements. Insert a montage here of me: cutting plywood on the table saw, drilling holes on the drill press, and sanding with the orbital sander.
+
+<img class="blogImage" src="/images/frankenender/oiliing_panels.JPG" alt="">
+
+After throwing a coat of tung oil on these panels they don't even look like scrap wood anymore! I probably should have thrown a second (or third) coat of finish on these but I was feeling lazy and called it good enough.
+
+<img class="blogImage" src="/images/frankenender/franken_logo_panel.JPG" alt="">
+
+For the back panel I wanted a to add a custom logo I created in Inkscape. The idea I had was to merge the old Ender 3 logo and a Frankenstein theme. Franken-Ender.
+
+I used a water-slide decal, an inkjet office printer, and clear gloss spray paint to apply this logo. First I finished the panel with tung oil. After a few days to cure, I hit it with a few coats of clear-coat (spray paint). I also then sealed the printer ink on the decal, with the same spray paint. After both of these dried, I applied the water slide decal, and sealed it with more clear-coat. I then alternated steel wool and clear-coat until you could (almost) no longer see the sticker outline.
 
 ## Assembly
 
