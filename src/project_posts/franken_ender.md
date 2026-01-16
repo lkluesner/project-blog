@@ -106,8 +106,42 @@ After throwing a coat of tung oil on these panels they don't even look like scra
 
 For the back panel I wanted a to add a custom logo I created in Inkscape. The idea I had was to merge the old Ender 3 logo and a Frankenstein theme. Franken-Ender.
 
-I used a water-slide decal, an inkjet office printer, and clear gloss spray paint to apply this logo. First I finished the panel with tung oil. After a few days to cure, I hit it with a few coats of clear-coat (spray paint). I also then sealed the printer ink on the decal, with the same spray paint. After both of these dried, I applied the water slide decal, and sealed it with more clear-coat. I then alternated steel wool and clear-coat until you could (almost) no longer see the sticker outline.
+I used a water-slide decal, an inkjet office printer, and clear gloss spray paint to apply this logo.
+
+First I finished the panel with tung oil. After a few days to cure, I hit it with a few coats of clear-coat (spray paint). I also then sealed the printer ink on the decal, with the same spray paint. After both of these dried, I applied the water slide decal, and sealed it with more clear-coat. I then alternated steel wool and clear-coat until you could (almost) no longer see the sticker outline.
 
 ## Assembly
+
+The assembly of the Ender NG project was not very easy. It is very obvious that it was not designed with "ease of assembly" in mind. That is okay, as its goal was not to be easy, but to repurpuse.
+
+Here are a bunch of pictures of the assembly process
+
+<img class="blogImage medium" src="/images/frankenender/ender3_parts.JPG" alt="" onclick="toggleFullScreen(this)">
+
+First i disassembled my ender 3 to harvest its organs. 
+
+<img class="blogImage medium" src="/images/frankenender/screws.JPG" alt="" onclick="toggleFullScreen(this)">
+
+Then I gathered my parts and started assembly
+
+<img class="blogImage medium" src="/images/frankenender/assembly_sherpa.JPG" alt="" onclick="toggleFullScreen(this)">
+
+Extruder assembly [Sherpa Mini](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder)
+
+<img class="blogImage medium" src="/images/frankenender/assembly1.JPG" alt="" onclick="toggleFullScreen(this)">
+
+<img class="blogImage medium" src="/images/frankenender/assembly2.JPG" alt="" onclick="toggleFullScreen(this)">
+
+<img class="blogImage medium" src="/images/frankenender/assembly3.JPG" alt="" onclick="toggleFullScreen(this)">
+
+<img class="blogImage medium" src="/images/frankenender/assembly4.JPG" alt="" onclick="toggleFullScreen(this)">
+
+<img class="blogImage medium" src="/images/frankenender/assembly5.JPG" alt="" onclick="toggleFullScreen(this)">
+
+<img class="blogImage medium" src="/images/frankenender/assembly6.JPG" alt="" onclick="toggleFullScreen(this)">
+
+<img class="blogImage medium" src="/images/frankenender/assembly7.JPG" alt="" onclick="toggleFullScreen(this)">
+
+<img class="blogImage medium" src="/images/frankenender/assembly8.JPG" alt="" onclick="toggleFullScreen(this)">
 
 ## Testing
