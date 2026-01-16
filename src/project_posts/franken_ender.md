@@ -16,7 +16,7 @@ An attempt to get my Ender 3 up to more modern 3d printing standards, similar to
 
 One of the features that my Ender 3 was greatly lacking was an auto-bed leveling sensor, so one of the first things I wanted to do was add one. 
 
-<img class="blogImage" src="/images/frankenender/bitburn_pins.JPG" alt="">
+<img class="blogImage medium" src="/images/frankenender/bitburn_pins.JPG" alt="" onclick="toggleFullScreen(this)">
 
 To do that, I needed to flash new software to the printer mainboard. 
 
@@ -26,7 +26,7 @@ Klipper lets you outsource the "thinking" part of your 3d printer to a Raspberry
 
 So, I started the process to flash Klipper onto my Ender 3.
 
-<img class="blogImage" src="/images/frankenender/microcontrollers_AVR_Programmer_bb.jpg" alt="">
+<img class="blogImage medium" src="/images/frankenender/microcontrollers_AVR_Programmer_bb.jpg" alt="" onclick="toggleFullScreen(this)">
 
 Unfortunately, the board shipped with the OG Ender 3 did not have a USB bootloader for new software installed. That meant I needed to directly connect to the programming pins of the microcontroller in order to flash new software (and a bootloader). 
 
@@ -38,7 +38,7 @@ I used Avrdude for this, an awesome open source utility for programming AVR micr
 
 Another lovely feature of the 8-bit Melzi MCU is the fact that there are no easy accessible (and free) GPIO pins to plug our new sensor into. We need 2 new signals from the MCU to control/utilize the ABL sensor, one to control the up and down, and one to poll the switch state.
 
-<img class="blogImage" src="/images/frankenender/ezoutv2_display_jumper.jpg" alt="">
+<img class="blogImage tiny" src="/images/frankenender/ezoutv2_display_jumper.jpg" alt="" onclick="toggleFullScreen(this)">
 
 To get one of these valuable I/O pins we will remove the Z-stop switch as the ABL switch is our Z-stop now. 
 
@@ -46,7 +46,7 @@ To get the other, we will install a jumper to steal the pin that controls the bu
 
 Luckily I'm not the first to do this, so was able to pick one up online for 3 bucks at TH3D.
 
-<img class="blogImage" src="/images/frankenender/crtouch_pinout.jpeg" alt="">
+<img class="blogImage medium" src="/images/frankenender/crtouch_pinout.jpeg" alt="" onclick="toggleFullScreen(this)">
 
 I chose the CR Touch as my ABL, I bought this early in the project, and I regret it. Its not a bad sensor, it just is outdated and heavy compared to KlickyPCB or BDSensor.
 
@@ -58,35 +58,35 @@ With the power of Klipper (and a bit of configuration), my ancient Ender 3 can n
 
 Now that we have done some minor upgrades, It was time for my Old Ender to start printing its replacement. Or is it printing organs to prolong its life? Real ship of Theseus situation I got going on here.
 
-<img class="blogImage" src="/images/frankenender/ender3_in_tent.JPG" alt="">
+<img class="blogImage medium" src="/images/frankenender/ender3_in_tent.JPG" alt="" onclick="toggleFullScreen(this)">
 
 In order to print ABS we need some sort of enclosure. I started out with a sketchy cardboard contraption setup in my parents garage, that actually was semi-functional... But, I decided to be a good son, and not burn down my parents house so I shelled out 20 bucks for a 3d printer tent.
 
-<img class="blogImage" src="/images/frankenender/ender3_wire_extensions.JPG" alt="">
+<img class="blogImage medium" src="/images/frankenender/ender3_wire_extensions.JPG" alt="" onclick="toggleFullScreen(this)">
 
 I extended the wires of the stock Ender 3 Harness so I could move the electronics out of the hot enclosure.
 
-<img class="blogImage" src="/images/frankenender/tent_mcu.JPG" alt="">
+<img class="blogImage medium" src="/images/frankenender/tent_mcu.JPG" alt="" onclick="toggleFullScreen(this)">
 
 I also added lights in the tent..
 
-<img class="blogImage" src="/images/frankenender/tent_light.JPG" alt="">
+<img class="blogImage small" src="/images/frankenender/tent_light.JPG" alt="" onclick="toggleFullScreen(this)">
 
 ...and a camera so I could babysit prints from long distance.
 
-<img class="blogImage" src="/images/frankenender/tent_cam.JPG" alt="">
+<img class="blogImage small" src="/images/frankenender/tent_cam.JPG" alt="" onclick="toggleFullScreen(this)">
 
 Side Note: I used Tailscale to setup secure communication to the RaspPi, mainly because it was the lowest effort.
 
-<img class="blogImage" src="/images/frankenender/tent_pi.JPG" alt="">
+<img class="blogImage small" src="/images/frankenender/tent_pi.JPG" alt="" onclick="toggleFullScreen(this)">
 
 Because I was printing in my parents garage, I also wanted a filament dry box to keep my new ASA filament fresh. I built a design I found online, the [Ultimate Filament Dry Box](https://www.printables.com/model/453772-ultimate-filament-dry-box).
 
-<img class="blogImage" src="/images/frankenender/drybox.JPG" alt="">
+<img class="blogImage medium" src="/images/frankenender/drybox.JPG" alt="" onclick="toggleFullScreen(this)">
 
 After all this was setup, I printed all the needed parts to build my [Ender NG](https://www.printables.com/model/922401-ender-3-ng-v12-corexy-conversion/files?lang=en) 
 
-<img class="blogImage" src="/images/frankenender/bucket_of_parts.JPG" onclick="toggleFullScreen(this)" alt="">
+<img class="blogImage medium" src="/images/frankenender/bucket_of_parts.JPG" alt="" onclick="toggleFullScreen(this)">
 
 ## Woodworking and the Enclosure
 
@@ -94,15 +94,15 @@ The Ender NG project has plans for you to buy laser cut acrylic panels to use as
 
 I found a few dirty pieces of quarter inch, MDF-core, plywood that were used for god knows what in the past. Absolute perfection.
 
-<img class="blogImage" src="/images/frankenender/sanding_panels.JPG" alt="">
+<img class="blogImage medium" src="/images/frankenender/sanding_panels.JPG" alt="" onclick="toggleFullScreen(this)">
 
 I used Autodesk Fusion 360 and the provided CAD files to get the needed measurements. Insert a montage here of me: cutting plywood on the table saw, drilling holes on the drill press, and sanding with the orbital sander.
 
-<img class="blogImage" src="/images/frankenender/oiliing_panels.JPG" alt="">
+<img class="blogImage medium" src="/images/frankenender/oiliing_panels.JPG" alt="" onclick="toggleFullScreen(this)">
 
 After throwing a coat of tung oil on these panels they don't even look like scrap wood anymore! I probably should have thrown a second (or third) coat of finish on these but I was feeling lazy and called it good enough.
 
-<img class="blogImage" src="/images/frankenender/franken_logo_panel.JPG" alt="">
+<img class="blogImage medium" src="/images/frankenender/franken_logo_panel.JPG" alt="" onclick="toggleFullScreen(this)">
 
 For the back panel I wanted a to add a custom logo I created in Inkscape. The idea I had was to merge the old Ender 3 logo and a Frankenstein theme. Franken-Ender.
 

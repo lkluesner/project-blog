@@ -166,6 +166,24 @@ img.blogImage {
 	height: auto;
 	border-radius: 0.5em;
     outline: .1em solid var(--bg2);
+	display: block;
+	margin: auto;
+}
+
+img.blogImage:fullscreen {
+	border-radius: 0;
+}
+
+img.blogImage.medium {
+	max-width: 50%;
+}
+
+img.blogImage.small {
+	max-width: 35%;
+}
+
+img.blogImage.tiny {
+	max-width: 25%;
 }
 
 .image-swap-container:hover .hover-image {
