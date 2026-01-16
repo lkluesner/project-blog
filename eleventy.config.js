@@ -10,6 +10,9 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/css");
   eleventyConfig.addWatchTarget("./src/css");
 
+  eleventyConfig.addPassthroughCopy("./src/js");
+  eleventyConfig.addWatchTarget("./src/js");
+
   //add navbar plugin
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 

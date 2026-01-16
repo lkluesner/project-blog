@@ -86,7 +86,7 @@ Because I was printing in my parents garage, I also wanted a filament dry box to
 
 After all this was setup, I printed all the needed parts to build my [Ender NG](https://www.printables.com/model/922401-ender-3-ng-v12-corexy-conversion/files?lang=en) 
 
-<img class="blogImage" src="/images/frankenender/bucket_of_parts.JPG" alt="">
+<img class="blogImage" src="/images/frankenender/bucket_of_parts.JPG" onclick="toggleFullScreen(this)" alt="">
 
 ## Woodworking and the Enclosure
 
