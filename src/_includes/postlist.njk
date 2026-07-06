@@ -2,11 +2,8 @@
 {% for post in collections.posts reversed %}
 <li class="postitem">
     <a href="{{ post.url }}">
-        <img src="https://picsum.photos/640/400/?random" alt="">
-        <span class="overlay-box">
-            <span class="post-title">{{ post.data.title }}</span>
-            <span class="description">{{ post.data.description }}</span>
-        </span>
+        <span class="post-title">{{ post.data.title }}</span>
+        <span class="description">{{ post.data.description }}</span>
     </a>
 </li>
 {% endfor %}

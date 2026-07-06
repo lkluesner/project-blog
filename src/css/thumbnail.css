@@ -2,77 +2,44 @@
 
 .postlist {
     list-style-type: none;
-    align-items:center;
     padding: 0.2em;
 }
 .postlist a {
     color:#fff;
     text-decoration:none;
-}
-.postlist a:hover .description {
-    opacity:1;
-    max-height: 100px;
-    margin-top: 5px;
-    transition: opacity 0.4s ease-out, max-height 0.9s ease-out
+    width: 100%;
+    float: left;
+
 }
 .postlist a:hover .overlay-box {
-    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0, 1));
 }
 /***************************************************/
 .postitem {
-    text-align: center;
+    text-align: right;
     margin-bottom: 1.25em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    padding: 0;
-    display: flex;
-    position: relative;
-    padding: 0.3em;
-}
-.postitem a {
-    padding:0;
+    display:flex;
     width: 100%;
-    height: 100%;
-    z-index:9997;
-}
-.postitem img {
-    width:100%;
-    max-height: 20em;
-    float:left;
-    border-radius: .5em;
-    outline: .1em solid var(--bg2);
- }
-.postitem a:hover img {
-    outline: .1em solid var(--orange_b);
+    border-top: 0.2em solid var(--contrast);
+    border-bottom: 0.2em solid var(--contrast);
+	background-color: var(--bg_3);
 }
 /***************************************************/
-.overlay-box {
-    position: absolute;
-    bottom:0;
-    z-index:9998;
-    left:0;
-    right:0;
-    padding:5%;
-    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.75));
-    border-radius: 0 0 .5em .5em;
-    margin: 0.3em;
-}
 .post-title {
-    font-size:2.5em;
-    display:block;
+    font-size: 2em;
     font-weight:500;
     text-shadow:0 0 1px rgba(0,0,0,0.5);
+    padding-top: 0.5em;
+    padding-left: 0.5em;
     font-family: baseFont;
+    float: left;
 }
 .description {
     color:#ccc;
     font-size: 0.9em;
-    margin-top:5px; 
-    display:block;
-    max-height: 0;
-    line-height: 18px;
-    overflow: hidden;
-    opacity: 0;
-    transition: opacity 0.4s ease-out, max-height 0.4s ease-out, margin 0.4s;
+    float: right;
+    width: 60%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-right: 0.5em;
 }
 
