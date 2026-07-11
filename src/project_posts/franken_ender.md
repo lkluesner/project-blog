@@ -30,7 +30,7 @@ So, I started the process to flash Klipper onto my Ender 3.
 
 Unfortunately, the board shipped with the OG Ender 3 did not have a USB bootloader for new software installed. That meant I needed to directly connect to the programming pins of the microcontroller in order to flash new software (and a bootloader). 
 
-They sell USB connectors for this task that run around 10 bucks, but I decided to cheap out and just use the GPIO pins on the Klipper Raspberry Pi. Bit-Banging!
+They sell USB connectors for this task that run around 10 bucks, but I decided to cheap out and just use the GPIO pins on the Klipper Raspberry Pi. (Bit-Banging!)
 
 I used Avrdude for this, an awesome open source utility for programming AVR microcontrollers. And after spending way too long plugging (and double checking) my Dupont jumpers into the Pi and MCU, I was able to flash the Klipper software. 
 

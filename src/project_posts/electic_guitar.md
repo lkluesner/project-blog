@@ -12,7 +12,7 @@ This is a project that I worked on before starting this blog. It actually was th
 
 The start of the inspiration for this project was this Belgian dude posting videos of his guitar making, [Tchik guitars](https://www.youtube.com/@tchiksguitars).
 
-I'm not sure why I decided to build a guitar. I can't even play guitar. But fuck was it fun to build and learn about. I think that, for me at least, building something is more about the build itself than the end result. It is about the journey, not the destination.
+I'm not sure why I decided to build a guitar. I can't even play guitar. But man was it fun to build and learn about. I think that, for me at least, building something is more about the journey, not the destination.
 
 My boy tchiksguitars has a lovely 3 part tutorial for the beginner luthier.
 
